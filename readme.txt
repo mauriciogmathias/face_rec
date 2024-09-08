@@ -22,15 +22,15 @@ Here’s how the project is structured:
 
 How to Run
 ----------
-1. **Data Collection (Step 1)**
+1. Data Collection
    First, capture images of the person you want the model to recognize:
    - Run the `data_collection.py` script located in the `scripts/` directory.
    - It will ask for your name and create directories for you.
    - The system will take 500 pictures (400 for training, 100 for validation).
    
-   **Tip:** Move your head a bit for better training data!
+   Tip: Move your head a bit for better training data!
 
-2. **Model Training (Step 2)**
+2. Model Training
    Once the images are captured, you can train the model.
    - Run `train_model.py` from the `scripts/` directory to start the training process.
    - This script will:
@@ -39,12 +39,12 @@ How to Run
      - Save the best version of the model in the `models/` directory.
    - After training, it will output graphs showing the training/validation accuracy and loss.
 
-3. **Testing (Step 3)**
+3. Testing
    Test the model on new images:
    - Run `test_model.py` located in the `scripts/` directory to check if the model recognizes new images.
    - You’ll see the predicted class (person’s name) and probabilities.
 
-4. **Real-Time Recognition (Step 4)**
+4. Real-Time Recognition
    Finally, run the face recognition system using your webcam:
    - Launch the `face_recognition.py` script from the `scripts/` directory.
    - The system will detect faces in real-time using OpenCV.
@@ -53,7 +53,7 @@ How to Run
 Requirements
 ------------
 You'll need the following libraries installed:
-- **OpenCV**: For handling images and webcam input.
-- **TensorFlow**: For training and recognizing faces.
-- **Matplotlib**: For visualizing data during training.
-- **Requests**: To download model files.
+- OpenCV: For handling images and webcam input.
+- TensorFlow (2.17): For training and recognizing faces.
+- Matplotlib: For visualizing data during training.
+- Requests: To download model files.
