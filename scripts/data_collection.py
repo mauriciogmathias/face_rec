@@ -8,7 +8,7 @@ face_detection_model_url = "https://raw.githubusercontent.com/opencv/opencv/mast
 face_detection_config_url = "https://github.com/opencv/opencv_3rdparty/raw/dnn_samples_face_detector_20170830/res10_300x300_ssd_iter_140000.caffemodel"
 
 #local file paths
-base_dir = os.path.join(os.path.expanduser('~'), 'Desktop/ml/face_rec')
+base_dir = os.path.join(os.path.expanduser('~'), 'Desktop/ml/facial_rec')
 face_detection_model_file = os.path.join(base_dir, 'models', 'deploy.prototxt')
 face_detection_config_file = os.path.join(base_dir, 'config_files', 'res10_300x300_ssd_iter_140000.caffemodel')
 

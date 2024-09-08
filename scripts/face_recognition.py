@@ -11,7 +11,7 @@ face_detection_model_url = "https://raw.githubusercontent.com/opencv/opencv/mast
 face_detection_config_url = "https://github.com/opencv/opencv_3rdparty/raw/dnn_samples_face_detector_20170830/res10_300x300_ssd_iter_140000.caffemodel"
 
 #local file paths
-base_dir = os.path.join(os.path.expanduser('~'), 'Desktop/ml/face_rec')
+base_dir = os.path.join(os.path.expanduser('~'), 'Desktop/ml/facial_rec')
 models_dir = os.path.join(base_dir, 'models')
 labels_file_path = os.path.join(base_dir, 'labels', 'labels.txt')
 model_path = os.path.join(models_dir, "InceptionV3_transfer_learning.keras")

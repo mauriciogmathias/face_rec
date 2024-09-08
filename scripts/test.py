@@ -4,7 +4,7 @@ import numpy as np
 from tensorflow.keras.preprocessing import image
 
 #set up directories with relative paths
-base_dir = os.path.join(os.path.expanduser('~'), 'Desktop/ml/face_rec')
+base_dir = os.path.join(os.path.expanduser('~'), 'Desktop/ml/facial_rec')
 models_dir = os.path.join(base_dir, 'models')
 labels_file_path = os.path.join(base_dir, 'labels', 'labels.txt')
 model_path = os.path.join(models_dir, "InceptionV3_transfer_learning.keras")
@@ -31,9 +31,9 @@ print(f"class names loaded from {labels_file_path}: {class_names}")
 
 #list of test images 
 test_image_paths = [
-    '/home/mauricio/Desktop/ml/face_rec/data/validation/mauricio/mauricio.494.jpg',
-    '/home/mauricio/Desktop/ml/face_rec/data/validation/ana/ana.473.jpg',
-    '/home/mauricio/Desktop/ml/face_rec/data/validation/carmen/carmen.499.jpg', 
+    '/home/mauricio/Desktop/ml/facial_rec/data/validation/mauricio/mauricio.494.jpg',
+    '/home/mauricio/Desktop/ml/facial_rec/data/validation/ana/ana.473.jpg',
+    '/home/mauricio/Desktop/ml/facial_rec/data/validation/carmen/carmen.499.jpg', 
 ]
 
 #loop through each test image

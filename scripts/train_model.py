@@ -9,7 +9,7 @@ tf.config.threading.set_inter_op_parallelism_threads(4)
 tf.config.threading.set_intra_op_parallelism_threads(4)
 
 #set up directories
-base_dir = os.path.join(os.path.expanduser('~'), 'Desktop/ml/face_rec')
+base_dir = os.path.join(os.path.expanduser('~'), 'Desktop/ml/facial_rec')
 train_dir = os.path.join(base_dir, 'data/train')
 validation_dir = os.path.join(base_dir, 'data/validation')
 output_dir = os.path.join(base_dir, 'images')
