@@ -1,6 +1,3 @@
-Face Recognition System - README
-=================================
-
 Project Overview
 ----------------
 This project aims to create a simple but effective face recognition system. It includes:
